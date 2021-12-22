@@ -1,0 +1,26 @@
+{
+  "name": "cansaye-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "deploy": "rm -rf build && docusaurus build && ts-node -r dotenv/config deploy/deploy.ts"
+  },
+  "dependencies": {
+    "@docusaurus/core": "^2.0.0-beta.9",
+    "@docusaurus/preset-classic": "^2.0.0-beta.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@docusaurus/types": "^2.0.0-beta.13",
+    "@tsconfig/docusaurus": "^1.0.4",
+    "@types/folder-walker": "^3.2.0",
+    "cos-nodejs-sdk-v5": "^2.11.2",
+    "dotenv": "^10.0.0",
+    "folder-walker": "^3.2.0",
+    "prettier": "^2.4.1",
+    "typescript": "^4.5.4"
+  }
+}

@@ -1,0 +1,5 @@
+build
+node_modules
+.docusaurus
+.DS_Store
+.env
