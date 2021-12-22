@@ -44,12 +44,6 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-
-      // googleAnalytics: {
-      //   trackingID: 'UA-141789564-1',
-      //   // Optional fields.
-      //   anonymizeIP: true, // Should IPs be anonymized?
-      // },
     }),
 
   presets: [
@@ -64,6 +58,10 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        googleAnalytics: {
+          trackingID: 'UA-212552908-1',
+          anonymizeIP: true, // Should IPs be anonymized?
         },
       }),
     ],
