@@ -16,6 +16,8 @@ node >= 14.0.0
 yarn
 ```
 
+修改`docusaurus.config.js`文件中url为自己的域名
+
 
 
 #### 本地部署
@@ -37,6 +39,3 @@ yarn build
 ```sh
 yarn deploy
 ```
-
-
-
