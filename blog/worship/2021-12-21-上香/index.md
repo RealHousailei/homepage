@@ -1,5 +1,5 @@
 ---
-slug: 2021-12-21-02
+slug: 2021-12-21-01
 title: 给小埃上香
 authors: cansaye
 ---
@@ -8,4 +8,4 @@ authors: cansaye
 
 <!--truncate-->
 
-![IMAGE](./01.jpg)
+![IMAGE](../aisidun.jpg)

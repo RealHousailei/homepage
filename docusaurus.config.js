@@ -35,7 +35,10 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.png',
         },
-        items: [{ to: 'blog', label: 'Blog', position: 'left' }],
+        items: [
+          { to: 'blog', label: 'Blog', position: 'left' },
+          { to: 'worship', label: 'Worship', position: 'left' },
+        ],
       },
       footer: {
         copyright: `Copyright © 2021 - ${new Date().getFullYear()} RealHousailei. Built with Docusaurus.`,
@@ -54,6 +57,7 @@ const config = {
         docs: false,
         blog: {
           routeBasePath: '/blog',
+          path: './blog/blog',
           showReadingTime: false,
         },
         theme: {
@@ -64,6 +68,18 @@ const config = {
           anonymizeIP: true, // Should IPs be anonymized?
         },
       }),
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'worship-blog',
+        routeBasePath: 'worship',
+        path: './blog/worship',
+        showReadingTime: false,
+      },
     ],
   ],
 };
