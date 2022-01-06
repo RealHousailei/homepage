@@ -37,6 +37,7 @@ const config = {
         },
         items: [
           { to: 'blog', label: 'Blog', position: 'left' },
+          { to: 'note', label: 'Note', position: 'left' },
           { to: 'worship', label: 'Worship', position: 'left' },
         ],
       },
@@ -78,6 +79,15 @@ const config = {
         id: 'worship-blog',
         routeBasePath: 'worship',
         path: './blog/worship',
+        showReadingTime: false,
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'note-blog',
+        routeBasePath: 'note',
+        path: './blog/note',
         showReadingTime: false,
       },
     ],
